@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+header{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.4962359943977591) 100%), 
+    url(sea.jpg) no-repeat center center;
+    
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.blogo{
+    font-size: 30px;
+    font-weight:bold ;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header p{
+    color: #fff;
+}
+h1{
+    color: #fff;
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+.hnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.htext{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.htext a{
+    margin-top: 20px;
+    border: 3px solid #fff;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.htext h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.navitem:hover{
+    font-size: 25px;
+    transition: font-size 0,5s;
+}
+.htext a:hover{
+    background-color: #fff;
+    color: red;
+    transition: 2s;
+}
+.main{
+    padding: 100px 0;
+    text-align: center; 
+}
+h2.h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #555555;
+    margin: 30px auto;
+}
+.line{
+    width: 50px;
+    height: 3px;
+    background-color: #555555;
+    margin: 30px auto;
+}
+.main-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+.block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+}
+.img{
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-size: 43px;
+    color: #c0301c;
+}
+.block h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.img:hover{
+    background-color:#c0301c; 
+    color: #fff;
+}
+.footer{
+    background-color:#c0301c ;
+    padding: 100px 0;
+}
+.twitter{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 200px;
+}
+.footer-text{
+    margin-top: 70px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.link a:hover{
+    background: #fff;
+    color: #c0301c;
+}
